@@ -5,23 +5,34 @@
     <title>::TEST::PAGE::</title>
     <link rel="stylesheet" href="asset\deco.css">
     <link rel="stylesheet" href="asset\grid.css">
+    <style>
+      img {
+        width:100px; height:50px;
+        object-fit:contain;
+        border: 3px solid grey;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <div class="header">
         <h1><a href="index.html">TestPage</a></h1>
       </div>
+      <!-- navigation part -->
       <div class="navigation">
           <div id="nav1"><a href="1.html">Goto Writing</a></div>
-          <div id="nav2"><a href="2.html" class="limit">Picture Libruary</a></div>
-          <div id="nav3"><a href="3.html" class="limit">BLOCKED</a></div>
+          <div id="nav2"><a href="2.html">Picture Libruary</a></div>
+          <div id="nav3"><a href="3.html">BLOCKED</a></div>
       </div>
+      <!-- navigation part end -->
       <div class="contents">
         <p>
           Test massage. This page is trial page. Thus if someone find this TestPage then please tell us there has some problem. To tell us, first please find the navigation bar which is located in left side of every page, and click the 'Goto Writing' text. Then you can serve to us your massage in that page. Thanks.
-
         </p>
-        <a href="1.html"> <img src="img\chick.jpg" width="30%"> </a>
+      </div>
+      <div class="footer">
+        <a href="https://www.google.com"> <img src="img\googlelogo.png"> </a>
+        <a href="https://www.wikipedia.org"> <img src="img\wikipedia.jpg"> </a>
       </div>
     </div>
   </body>
